@@ -5,16 +5,16 @@ java-workshop-vet
 
 ## Day 1 - Java Fundamentals & Git
 
-* [ ] Git Basics
-* [ ] JDK vs JRE vs JVM
-* [ ] Variables & Primitives
-* [ ] Operators
+* [x] Git Basics
+* [x] JDK vs JRE vs JVM
+* [x] Variables & Primitives
+* [x] Operators
 
 ## Day 2 - Conditionals & Loops
 
-* [ ] Conditionals (if, switch)
-* [ ] Loops (for, while, do-while)
-* [ ] Basic Programs
+* [x] Conditionals (if, switch)
+* [x] Loops (for, while, do-while)
+* [x] Basic Programs
 
 ## Day 3 - Pattern Programming & Arrays
 
