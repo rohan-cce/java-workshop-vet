@@ -18,12 +18,12 @@ java-workshop-vet
 
 ## Day 3 - Pattern Programming & Arrays
 
-* [ ] Pattern Programming
-* [ ] 1D Arrays
+* [x] Pattern Programming
+* [x] 1D Arrays
 
 ## Day 4 - 2D Arrays & Methods
 
-* [ ] 2D Arrays
+* [x] 2D Arrays
 * [ ] Methods
 
 ## Day 5 - Classes & Objects
