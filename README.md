@@ -1,49 +1,86 @@
 # java-workshop-vet
-java-workshop-vet
 
-# Java Training Plan 
+A structured 15-day Java training workshop plan aligned to modern Java fundamentals, practical object-oriented design, build discipline, JDBC, and beginner-safe concurrency concepts.
 
-## Day 1 - Java Fundamentals & Git
+## Java Training Plan
+
+## Day 1 - Git, Java Setup, Variables, Primitives, Operators
 
 * [x] Git Basics
 * [x] JDK vs JRE vs JVM
-* [x] Variables & Primitives
+* [x] Variables
+* [x] Primitive Data Types
+* [x] Literals
 * [x] Operators
+* [x] First Compile/Run Cycle
+* [x] Basic Output
 
-## Day 2 - Conditionals & Loops
+## Day 2 - Conditionals, Loops, and Basic Programs
 
-* [x] Conditionals (if, switch)
-* [x] Loops (for, while, do-while)
+* [x] Conditionals (`if`, `else if`, `switch`)
+* [x] Loops (`for`, `while`, `do-while`)
+* [x] Dry Run Habit
 * [x] Basic Programs
+* [x] Menu-Driven Logic
 
-## Day 3 - Pattern Programming & Arrays
+## Day 3 - Pattern Programming and 1D Arrays
 
-* [ ] Pattern Programming
-* [ ] 1D Arrays
+* [x] Pattern Programming
+* [x] Nested Loops
+* [x] 1D Arrays
+* [x] Traversal
+* [x] Sum, Average, Min, Max
+* [x] Linear Search
 
-## Day 4 - 2D Arrays & Methods
+## Day 4 - 2D Arrays, Methods, and Problem Decomposition
 
 * [ ] 2D Arrays
+* [ ] Row-wise and Column-wise Traversal
 * [ ] Methods
+* [ ] Parameters
+* [ ] Return Values
+* [ ] Problem Decomposition
 
-## Day 5 - Classes & Objects
+## Day 5 - Strings, Input Handling, and Debugging Habits
 
-* [ ] Method Overloading
+* [ ] `String`
+* [ ] String Comparison
+* [ ] String Methods
+* [ ] Console Input
+* [ ] Parsing
+* [ ] Input Validation
+* [ ] Compiler Errors
+* [ ] Runtime Errors
+* [ ] Debugging Habit
+
+## Day 6 - Classes, Objects, Constructors, Encapsulation, Overloading
+
 * [ ] Classes
 * [ ] Objects
 * [ ] Constructors
 * [ ] Encapsulation
+* [ ] Getters/Setters
+* [ ] Method Overloading
 
-## Day 6 - OOP & Modern Java
+## Day 7 - Inheritance, Polymorphism, Abstraction, Interfaces
 
 * [ ] Inheritance
 * [ ] Polymorphism
 * [ ] Abstraction
+* [ ] Interfaces
+* [ ] Method Overriding
+* [ ] Packages and Imports
+* [ ] Access Modifiers
+
+## Day 8 - Modern Java Modeling
+
 * [ ] Records
 * [ ] Record Immutability
 * [ ] Sealed Classes
+* [ ] Enums
+* [ ] Mutable vs Immutable Modeling
 
-## Day 7 - JVM Fundamentals
+## Day 9 - JVM Fundamentals
 
 * [ ] How Java Program Executes
 * [ ] Compilation Process
@@ -54,30 +91,38 @@ java-workshop-vet
 * [ ] Object Lifecycle
 * [ ] Garbage Collection Basics
 
-## Day 8 - Collections Part 1 & Exceptions
+## Day 10 - Collections Part 1 and Exceptions
 
-* [ ] Arrays vs ArrayList
-* [ ] LinkedList
-* [ ] ArrayDeque
+### Collections
+
+* [ ] Arrays vs `ArrayList`
+* [ ] `LinkedList`
+* [ ] `ArrayDeque`
+* [ ] Generics Intuition
 
 ### Exception Handling
 
-* [ ] try
-* [ ] catch
-* [ ] finally
-* [ ] throw
-* [ ] throws
+* [ ] `try`
+* [ ] `catch`
+* [ ] `finally`
+* [ ] `throw`
+* [ ] `throws`
+
+## Day 11 - Collections Part 2 and Custom Exceptions
+
+### Collections
+
+* [ ] `Set`
+* [ ] `SortedSet`
+* [ ] Hashing
+* [ ] `HashMap`
+* [ ] `TreeMap`
+
+### Exceptions
+
 * [ ] Custom Exceptions
 
-## Day 9 - Collections Part 2
-
-* [ ] Set
-* [ ] SortedSet
-* [ ] Hashing
-* [ ] HashMap
-* [ ] TreeMap
-
-## Day 10 - Maven & Design Patterns
+## Day 12 - Maven, Project Structure, and Build Discipline
 
 ### Maven
 
@@ -86,26 +131,21 @@ java-workshop-vet
 * [ ] Dependency Management
 * [ ] Dependency Tree
 
-### Design Patterns
+### Project Discipline
 
-* [ ] Builder Pattern
-* [ ] Factory Pattern
+* [ ] Package Structure
+* [ ] Standard Layout
+* [ ] Reproducible Builds
 
-## Day 11 - JDBC Architecture & Composite Pattern
+## Day 13 - JDBC Architecture and CRUD
 
 ### JDBC Architecture
 
 * [ ] Driver
 * [ ] Connection
 * [ ] Statement
-* [ ] PreparedStatement
-* [ ] ResultSet
-
-### Design Patterns
-
-* [ ] Composite Pattern
-
-## Day 12 - JDBC & Concurrency
+* [ ] `PreparedStatement`
+* [ ] `ResultSet`
 
 ### JDBC CRUD Operations
 
@@ -114,14 +154,29 @@ java-workshop-vet
 * [ ] UPDATE
 * [ ] DELETE
 
-### Concurrency Basics (if time permits)
+## Day 14 - Design Patterns for This Course
+
+* [ ] Builder Pattern
+* [ ] Factory Pattern
+* [ ] Composite Pattern
+* [ ] Pattern Selection Tradeoffs
+
+## Day 15 - Concurrency Basics and Capstone Integration
+
+### Concurrency Basics
 
 * [ ] Threads
-* [ ] Runnable
+* [ ] `Runnable`
 * [ ] Thread Lifecycle
 * [ ] Race Conditions
 * [ ] Synchronization Basics
 
+### Integration
+
+* [ ] Capstone Integration
+* [ ] Git-Backed Final Demo
+* [ ] Modern Java Awareness: Virtual Threads (mention only)
+
 ---
 
 # Learning Priorities
@@ -129,6 +184,8 @@ java-workshop-vet
 ## Must Master
 
 * [ ] Core Java Fundamentals
+* [ ] Problem Solving with Conditionals and Loops
+* [ ] Arrays and Methods
 * [ ] OOP
 * [ ] Collections
 * [ ] Exception Handling
@@ -138,69 +195,47 @@ java-workshop-vet
 
 * [ ] JVM
 * [ ] Maven
-* [ ] Records & Sealed Classes
-* [ ] Hashing & Maps
+* [ ] Records and Sealed Classes
+* [ ] Hashing and Maps
+* [ ] Build Discipline
 * [ ] Concurrency Basics
 
 ## Awareness Level
 
 * [ ] Composite Pattern
+* [ ] Virtual Threads
+* [ ] Pattern Tradeoffs
 
 ---
 
 # Progress Tracker
 
-* [ ] Day 1 Completed
-* [ ] Day 2 Completed
-* [ ] Day 3 Completed
-* [ ] Day 4 Completed
-* [ ] Day 5 Completed
-* [ ] Day 6 Completed
-* [ ] Day 7 Completed
-* [ ] Day 8 Completed
-* [ ] Day 9 Completed
-* [ ] Day 10 Completed
-* [ ] Day 11 Completed
-* [ ] Day 12 Completed
-
-
-# Learning Priorities
-
-## Must Master
-
-* [ ] Core Java Fundamentals
-* [ ] OOP
-* [ ] Collections
-* [ ] Exception Handling
-* [ ] JDBC CRUD
-
-## Must Understand
-
-* [ ] JVM
-* [ ] Maven
-* [ ] Records & Sealed Classes
-* [ ] Hashing & Maps
-* [ ] Concurrency Basics
-
-## Awareness Level
-
-* [ ] Composite Pattern
+* [x] Day 1 Completed
+* [x] Day 2 Completed
+* [ ] Day 3 In Progress
+* [ ] Day 4 Pending
+* [ ] Day 5 Pending
+* [ ] Day 6 Pending
+* [ ] Day 7 Pending
+* [ ] Day 8 Pending
+* [ ] Day 9 Pending
+* [ ] Day 10 Pending
+* [ ] Day 11 Pending
+* [ ] Day 12 Pending
+* [ ] Day 13 Pending
+* [ ] Day 14 Pending
+* [ ] Day 15 Pending
 
 ---
 
-# Progress Tracker
+# Notes
 
-* [ ] Day 1 Completed
-* [ ] Day 2 Completed
-* [ ] Day 3 Completed
-* [ ] Day 4 Completed
-* [ ] Day 5 Completed
-* [ ] Day 6 Completed
-* [ ] Day 7 Completed
-* [ ] Day 8 Completed
-* [ ] Day 9 Completed
-* [ ] Day 10 Completed
-* [ ] Day 11 Completed
-* [ ] Day 12 Completed
+* The workshop is planned as a 15-day progression instead of the earlier 12-day outline.
+* Missing but important fundamentals have been made explicit: primitives, operators, strings, input handling, debugging habits, interfaces, enums, generics intuition, and build discipline.
+* The course stays beginner-friendly while still reflecting modern Java thinking around records, sealed classes, and current best practices.
 
-link : https://app.notion.com/p/topics-36dbaf3d9bc180478d5af6557187a26a
+---
+
+# Reference
+
+* Original topic tracker: [Notion Topic List](https://app.notion.com/p/topics-36dbaf3d9bc180478d5af6557187a26a)
